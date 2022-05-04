@@ -1,0 +1,1 @@
+{"training loss": 0.4330286271870136, "_timestamp": 1651362116, "_runtime": 34970, "training reward": -35.459649435328096, "_step": 2999, "testing reward": -548.2198589148286, "_wandb": {"runtime": 34972}}

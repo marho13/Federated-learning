@@ -1,0 +1,122 @@
+[36m(pid=310465)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310465)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310461)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310461)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310479)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310479)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310456)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310456)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310447)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310447)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310477)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310477)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310471)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310471)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=310473)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=310473)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py:57: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  temp = np.add(g, get_weighted_grads)#avg_grad)
+[36m(pid=310465)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310465)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310461)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310461)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310479)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310479)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310456)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310456)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310447)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310447)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310477)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310477)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310471)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310471)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=310473)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=310473)[39m   p.grad = torch.from_numpy(g)
+Run 0
+/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Epoch 9, gave reward -265.31389063889486
+Epoch 19, gave reward -88.3374442564079
+Epoch 29, gave reward -97.28103604203694
+Epoch 39, gave reward -560.4811218986232
+Epoch 49, gave reward -96.7894609436688
+Epoch 59, gave reward -48.98773187872756
+Epoch 69, gave reward -283.1595006533239
+Epoch 79, gave reward -257.59055527721523
+Epoch 89, gave reward -77.54523431081583
+Epoch 99, gave reward -80.47425270511671
+Epoch 109, gave reward -266.98540495710523
+Epoch 119, gave reward -405.4784078532947
+Epoch 129, gave reward -240.36056371165603
+Epoch 139, gave reward -278.23835826474783
+Epoch 149, gave reward -179.29238541274094
+Epoch 159, gave reward -78.16479731261117
+Epoch 169, gave reward -61.59117175461826
+Epoch 179, gave reward -90.57120468770677
+Epoch 189, gave reward -181.70318151200982
+Epoch 199, gave reward -105.70728851922355
+Epoch 209, gave reward -126.10187818712178
+Epoch 219, gave reward -329.3923921951033
+Epoch 229, gave reward -129.32850098526762
+Epoch 239, gave reward -213.79525333222722
+Epoch 249, gave reward -175.63465517892968
+Epoch 259, gave reward -279.40969120530326
+Epoch 269, gave reward -79.47973686366167
+Epoch 279, gave reward -66.9731290484822
+Epoch 289, gave reward -319.91684636380757
+Epoch 299, gave reward -153.8507297169786
+Epoch 309, gave reward -303.0048672319382
+Epoch 319, gave reward -30.056769339608223
+Epoch 329, gave reward -146.50811838213139
+Epoch 339, gave reward -84.71432922264897
+Epoch 349, gave reward -204.18952472364828
+Epoch 359, gave reward -118.2104030125081
+Epoch 369, gave reward -178.92420797134105
+Epoch 379, gave reward -52.11099364741225
+Epoch 389, gave reward -289.57160024011534
+Epoch 399, gave reward -87.47759626892976
+Epoch 409, gave reward -73.49733225648181
+Epoch 419, gave reward -145.39608412093395
+Epoch 429, gave reward -270.624438438071
+Epoch 439, gave reward -140.85626934240037
+Epoch 449, gave reward -296.54989583606766
+Epoch 459, gave reward -320.2340178535132
+Epoch 469, gave reward -503.4368707079029
+Epoch 479, gave reward -93.98045297302936
+Epoch 489, gave reward -291.98054050068396
+Epoch 499, gave reward -273.2520073873758
+Epoch 509, gave reward -41.15978474152282
+Epoch 519, gave reward -400.4237148511869
+Epoch 529, gave reward -32.64702495373594
+Epoch 539, gave reward -109.6357351636542
+Epoch 549, gave reward -41.256202479514805
+Epoch 559, gave reward -247.08445510158265
+Epoch 569, gave reward -63.41353093074333
+Epoch 579, gave reward -437.3123789502077
+Epoch 589, gave reward -282.23914231420474
+Epoch 599, gave reward -300.08261496153
+Epoch 609, gave reward -300.51181411180187
+Epoch 619, gave reward -246.38308684624792
+Epoch 629, gave reward -524.5372209911757
+Epoch 639, gave reward -174.31690055889797
+Epoch 649, gave reward -277.76590632294983
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py", line 228, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1488, in get
+    values, debugger_breakpoint = worker.get_objects(
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 337, in get_objects
+    data_metadata_pairs = self.core_worker.get_objects(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py", line 228, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1488, in get
+    values, debugger_breakpoint = worker.get_objects(
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 337, in get_objects
+    data_metadata_pairs = self.core_worker.get_objects(
+KeyboardInterrupt

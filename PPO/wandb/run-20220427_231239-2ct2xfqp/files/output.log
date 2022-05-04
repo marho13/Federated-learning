@@ -1,0 +1,44 @@
+
+Run 0
+[36m(pid=108212)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108212)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108198)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108198)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108182)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108182)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108206)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108206)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108213)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108213)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108210)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108210)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108195)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108195)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=108215)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=108215)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py:57: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  temp = np.add(g, get_weighted_grads)#avg_grad)
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py", line 249, in <module>
+    print("Epoch {}, gave reward {} and loss {}".format(i, rew, loss))
+NameError: name 'rew' is not defined
+[36m(pid=108212)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108212)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108198)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108198)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108182)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108182)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108206)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108206)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108213)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108213)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108210)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108210)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108195)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108195)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=108215)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=108215)[39m   p.grad = torch.from_numpy(g)
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py", line 249, in <module>
+    print("Epoch {}, gave reward {} and loss {}".format(i, rew, loss))
+NameError: name 'rew' is not defined

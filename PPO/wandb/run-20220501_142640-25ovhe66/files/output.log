@@ -1,0 +1,33 @@
+[36m(pid=386260)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386260)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386280)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386280)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386285)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386285)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386268)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386268)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386270)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386270)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386289)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386289)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386281)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386281)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=386292)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=386292)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 255, in <module>
+    current_weights = ps.highestRewGrad(grads, reward)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 63, in highestRewGrad
+    index = self.getHighestRew(rew)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 68, in getHighestRew
+    maxy = rew[0].item()
+AttributeError: 'float' object has no attribute 'item'
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 255, in <module>
+    current_weights = ps.highestRewGrad(grads, reward)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 63, in highestRewGrad
+    index = self.getHighestRew(rew)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/highestRewardActor.py", line 68, in getHighestRew
+    maxy = rew[0].item()
+AttributeError: 'float' object has no attribute 'item'
+Run 0

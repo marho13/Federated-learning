@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 199, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(IndexError): [36mray::DataWorker.compute_gradients()[39m (pid=2521563, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 102, in compute_gradients
+    rew = self.performNActions(1000)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 116, in performNActions
+    state, rew, done, info = self.env.step(action)#.item())#actionTranslated)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/gym/wrappers/time_limit.py", line 16, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 258, in step
+    if (self.continuous and action[0] > 0.0) or (not self.continuous and action == 2):
+IndexError: invalid index to scalar variable.
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 199, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(IndexError): [36mray::DataWorker.compute_gradients()[39m (pid=2521563, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 102, in compute_gradients
+    rew = self.performNActions(1000)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 116, in performNActions
+    state, rew, done, info = self.env.step(action)#.item())#actionTranslated)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/gym/wrappers/time_limit.py", line 16, in step
+    observation, reward, done, info = self.env.step(action)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/gym/envs/box2d/lunar_lander.py", line 258, in step
+    if (self.continuous and action[0] > 0.0) or (not self.continuous and action == 2):
+IndexError: invalid index to scalar variable.
+Run 0

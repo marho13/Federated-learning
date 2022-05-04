@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "weightedGradient.py", line 241, in <module>
+    ps = ParameterServer(stateDim, numActions, n_latent_var, lr, betas, gamma, envName)
+TypeError: __init__() missing 1 required positional argument: 'numAgents'
+Traceback (most recent call last):
+  File "weightedGradient.py", line 241, in <module>
+    ps = ParameterServer(stateDim, numActions, n_latent_var, lr, betas, gamma, envName)
+TypeError: __init__() missing 1 required positional argument: 'numAgents'

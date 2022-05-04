@@ -1,0 +1,44 @@
+
+Run 0
+[36m(pid=423070)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423070)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423065)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423065)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423090)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423090)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423084)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423084)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423087)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423087)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423075)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423075)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423032)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423032)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=423079)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=423079)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/martin_holen/.local/lib/python3.8/site-packages/numpy/core/shape_base.py:420: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  arrays = [asanyarray(arr) for arr in arrays]
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 214, in <module>
+    current_weights = ps.aboveAvg(grads, reward, avgRew)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 58, in aboveAvg
+    self.calcAvgGrad(gradient)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 72, in calcAvgGrad
+    self.updater(summed_gradients)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 78, in updater
+    self.model.set_gradients(gradient)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/model.py", line 89, in set_gradients
+    p.grad = torch.from_numpy(g)
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 214, in <module>
+    current_weights = ps.aboveAvg(grads, reward, avgRew)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 58, in aboveAvg
+    self.calcAvgGrad(gradient)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 72, in calcAvgGrad
+    self.updater(summed_gradients)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/aboveAverageReward.py", line 78, in updater
+    self.model.set_gradients(gradient)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/model.py", line 89, in set_gradients
+    p.grad = torch.from_numpy(g)
+TypeError: can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint8, and bool.

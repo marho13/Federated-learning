@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 199, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(TypeError): [36mray::DataWorker.compute_gradients()[39m (pid=2515216, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 102, in compute_gradients
+    rew = self.performNActions(1000)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 113, in performNActions
+    action = self.DQN.policy(s)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 199, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(TypeError): [36mray::DataWorker.compute_gradients()[39m (pid=2515216, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 102, in compute_gradients
+    rew = self.performNActions(1000)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 113, in performNActions
+    action = self.DQN.policy(s)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 1 positional argument but 2 were given
+Run 0

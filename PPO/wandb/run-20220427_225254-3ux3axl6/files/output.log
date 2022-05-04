@@ -1,0 +1,675 @@
+[36m(pid=92759)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92759)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92758)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92758)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92744)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92744)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92706)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92706)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92751)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92751)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92742)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92742)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92747)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92747)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=92764)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=92764)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+weightedGradient.py:57: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  temp = np.add(g, get_weighted_grads)#avg_grad)
+2022-04-27 22:52:57,139	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,140	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,140	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,141	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,141	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,141	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,141	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,141	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,210	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,211	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,212	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,280	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,281	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,281	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,282	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,282	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,282	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,282	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,282	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,368	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,369	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,370	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,448	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,449	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,449	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,450	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,450	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,450	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,450	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,450	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,512	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,515	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,515	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,515	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,515	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,515	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,516	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,516	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,671	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,672	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,672	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,673	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,673	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,673	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,673	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,673	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,753	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,755	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,755	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,755	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,755	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,756	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,756	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,756	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,817	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,825	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,825	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,825	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,825	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,825	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,826	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,826	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,888	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92742, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,888	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92758, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,888	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92744, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+Traceback (most recent call last):
+2022-04-27 22:52:57,889	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92759, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+  File "weightedGradient.py", line 273, in <module>
+    rew = ps.performNActions(1000)
+  File "weightedGradient.py", line 112, in performNActions
+    action = self.model(s)
+2022-04-27 22:52:57,889	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92764, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 1 positional argument but 2 were given
+2022-04-27 22:52:57,889	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92706, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,890	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92747, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+2022-04-27 22:52:57,890	ERROR worker.py:78 -- Unhandled error (suppress with RAY_IGNORE_UNHANDLED_ERRORS=1): [36mray::DataWorker.set_grads_calc_weights()[39m (pid=92751, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 180, in set_grads_calc_weights
+    self.DQN.policy_net.set_gradients(grad)
+AttributeError: 'DataWorker' object has no attribute 'DQN'
+Traceback (most recent call last):
+  File "weightedGradient.py", line 273, in <module>
+    rew = ps.performNActions(1000)
+  File "weightedGradient.py", line 112, in performNActions
+    action = self.model(s)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+TypeError: forward() takes 1 positional argument but 2 were given
+Run 0

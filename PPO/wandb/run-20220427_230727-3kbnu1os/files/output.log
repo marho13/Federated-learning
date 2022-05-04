@@ -1,0 +1,44 @@
+[36m(pid=105052)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105052)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105035)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105035)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105033)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105033)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105030)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105030)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105025)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105025)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105027)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105027)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105028)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105028)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=105049)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=105049)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py:61: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  summed_gradients = np.divide(summed_gradients, self.num_agents)
+Run 0
+Epoch 9, gave reward -388.94555691328543
+/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Epoch 19, gave reward -331.8812666201344
+Epoch 29, gave reward -297.9964822839742
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 193, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1488, in get
+    values, debugger_breakpoint = worker.get_objects(
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 337, in get_objects
+    data_metadata_pairs = self.core_worker.get_objects(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py", line 193, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1488, in get
+    values, debugger_breakpoint = worker.get_objects(
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 337, in get_objects
+    data_metadata_pairs = self.core_worker.get_objects(
+KeyboardInterrupt

@@ -1,0 +1,150 @@
+2022-04-27 23:02:59,727 INFO    MainThread:101530 [internal.py:wandb_internal():92] W&B internal server running at pid: 101530, started at: 2022-04-27 23:02:59.727302
+2022-04-27 23:02:59,730 INFO    WriterThread:101530 [datastore.py:open_for_write():77] open: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/run-147m8fyx.wandb
+2022-04-27 23:02:59,731 DEBUG   SenderThread:101530 [sender.py:send():235] send: header
+2022-04-27 23:02:59,731 DEBUG   SenderThread:101530 [sender.py:send():235] send: run
+2022-04-27 23:02:59,934 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: check_version
+2022-04-27 23:02:59,936 INFO    SenderThread:101530 [dir_watcher.py:__init__():169] watching files in: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files
+2022-04-27 23:02:59,936 INFO    SenderThread:101530 [sender.py:_start_run_threads():812] run started: 147m8fyx with start time 1651093379
+2022-04-27 23:02:59,936 DEBUG   SenderThread:101530 [sender.py:send():235] send: summary
+2022-04-27 23:02:59,936 INFO    SenderThread:101530 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 23:02:59,936 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: check_version
+2022-04-27 23:03:00,010 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: run_start
+2022-04-27 23:03:00,015 DEBUG   HandlerThread:101530 [meta.py:__init__():37] meta init
+2022-04-27 23:03:00,015 DEBUG   HandlerThread:101530 [meta.py:__init__():51] meta init done
+2022-04-27 23:03:00,015 DEBUG   HandlerThread:101530 [meta.py:probe():211] probe
+2022-04-27 23:03:00,020 DEBUG   HandlerThread:101530 [git.py:repo():33] git repository is invalid
+2022-04-27 23:03:00,020 DEBUG   HandlerThread:101530 [meta.py:_save_pip():55] save pip
+2022-04-27 23:03:00,021 DEBUG   HandlerThread:101530 [meta.py:_save_pip():69] save pip done
+2022-04-27 23:03:00,021 DEBUG   HandlerThread:101530 [meta.py:probe():249] probe done
+2022-04-27 23:03:00,023 DEBUG   SenderThread:101530 [sender.py:send():235] send: files
+2022-04-27 23:03:00,023 INFO    SenderThread:101530 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-27 23:03:00,028 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-27 23:03:00,029 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: stop_status
+2022-04-27 23:03:00,402 DEBUG   SenderThread:101530 [sender.py:send():235] send: telemetry
+2022-04-27 23:03:00,615 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-27 23:03:00,615 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-27 23:03:00,648 INFO    Thread-11 :101530 [upload_job.py:push():137] Uploaded file /tmp/tmpgz9p4lthwandb/17uk2lif-wandb-metadata.json
+2022-04-27 23:03:00,689 DEBUG   SenderThread:101530 [sender.py:send():235] send: telemetry
+2022-04-27 23:03:00,938 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_created():217] file/dir created: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/requirements.txt
+2022-04-27 23:03:00,938 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_created():217] file/dir created: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/output.log
+2022-04-27 23:03:00,939 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_created():217] file/dir created: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-metadata.json
+2022-04-27 23:03:00,939 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_created():217] file/dir created: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-summary.json
+2022-04-27 23:03:02,937 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/output.log
+2022-04-27 23:03:03,048 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:03,048 DEBUG   SenderThread:101530 [sender.py:send():235] send: exit
+2022-04-27 23:03:03,048 INFO    SenderThread:101530 [sender.py:send_exit():371] handling exit code: 1
+2022-04-27 23:03:03,048 INFO    SenderThread:101530 [sender.py:send_exit():373] handling runtime: 3
+2022-04-27 23:03:03,049 INFO    SenderThread:101530 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 23:03:03,049 INFO    SenderThread:101530 [sender.py:send_exit():379] send defer
+2022-04-27 23:03:03,049 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:03,050 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,050 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-27 23:03:03,050 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,050 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-27 23:03:03,050 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 1
+2022-04-27 23:03:03,050 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,050 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-27 23:03:03,084 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,084 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-27 23:03:03,084 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 2
+2022-04-27 23:03:03,084 DEBUG   SenderThread:101530 [sender.py:send():235] send: stats
+2022-04-27 23:03:03,085 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,085 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-27 23:03:03,086 DEBUG   SenderThread:101530 [sender.py:send():235] send: history
+2022-04-27 23:03:03,086 DEBUG   SenderThread:101530 [sender.py:send():235] send: summary
+2022-04-27 23:03:03,086 INFO    SenderThread:101530 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 23:03:03,086 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,086 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-27 23:03:03,086 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 3
+2022-04-27 23:03:03,086 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,087 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-27 23:03:03,087 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,087 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-27 23:03:03,087 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 4
+2022-04-27 23:03:03,087 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,087 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-27 23:03:03,087 DEBUG   SenderThread:101530 [sender.py:send():235] send: summary
+2022-04-27 23:03:03,088 INFO    SenderThread:101530 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-27 23:03:03,088 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,088 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-27 23:03:03,088 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 5
+2022-04-27 23:03:03,088 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,088 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-27 23:03:03,088 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,088 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-27 23:03:03,150 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:03,280 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 6
+2022-04-27 23:03:03,280 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:03,280 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,280 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-27 23:03:03,281 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,281 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-27 23:03:03,281 INFO    SenderThread:101530 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-27 23:03:03,382 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:03,937 INFO    Thread-7  :101530 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/config.yaml
+2022-04-27 23:03:03,938 INFO    SenderThread:101530 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/output.log
+2022-04-27 23:03:03,938 INFO    SenderThread:101530 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-summary.json
+2022-04-27 23:03:03,938 INFO    SenderThread:101530 [dir_watcher.py:finish():313] scan: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files
+2022-04-27 23:03:03,938 INFO    SenderThread:101530 [dir_watcher.py:finish():327] scan save: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-metadata.json wandb-metadata.json
+2022-04-27 23:03:03,939 INFO    SenderThread:101530 [dir_watcher.py:finish():327] scan save: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/requirements.txt requirements.txt
+2022-04-27 23:03:03,939 INFO    SenderThread:101530 [dir_watcher.py:finish():327] scan save: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/config.yaml config.yaml
+2022-04-27 23:03:03,939 INFO    SenderThread:101530 [dir_watcher.py:finish():327] scan save: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/output.log output.log
+2022-04-27 23:03:03,942 INFO    SenderThread:101530 [dir_watcher.py:finish():327] scan save: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-summary.json wandb-summary.json
+2022-04-27 23:03:03,946 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 7
+2022-04-27 23:03:03,946 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:03,950 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:03,951 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-27 23:03:03,951 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:03,951 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-27 23:03:03,955 INFO    SenderThread:101530 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-27 23:03:04,052 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,052 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,153 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,154 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,255 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,255 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,357 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,357 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,458 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,458 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,559 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,559 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,581 INFO    Thread-14 :101530 [upload_job.py:push():137] Uploaded file /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/output.log
+2022-04-27 23:03:04,594 INFO    Thread-12 :101530 [upload_job.py:push():137] Uploaded file /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/requirements.txt
+2022-04-27 23:03:04,598 INFO    Thread-15 :101530 [upload_job.py:push():137] Uploaded file /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/wandb-summary.json
+2022-04-27 23:03:04,600 INFO    Thread-13 :101530 [upload_job.py:push():137] Uploaded file /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/files/config.yaml
+2022-04-27 23:03:04,660 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,660 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,762 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,762 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,801 INFO    Thread-6  :101530 [sender.py:transition_state():392] send defer: 8
+2022-04-27 23:03:04,802 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:04,802 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-27 23:03:04,802 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:04,802 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-27 23:03:04,863 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:04,952 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 9
+2022-04-27 23:03:04,952 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:04,953 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:04,953 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-27 23:03:04,953 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:04,953 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-27 23:03:04,953 INFO    SenderThread:101530 [sender.py:transition_state():392] send defer: 10
+2022-04-27 23:03:04,954 DEBUG   SenderThread:101530 [sender.py:send():235] send: final
+2022-04-27 23:03:04,954 DEBUG   SenderThread:101530 [sender.py:send():235] send: footer
+2022-04-27 23:03:04,954 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: defer
+2022-04-27 23:03:04,954 INFO    HandlerThread:101530 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-27 23:03:04,954 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: defer
+2022-04-27 23:03:04,954 INFO    SenderThread:101530 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-27 23:03:05,054 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-27 23:03:05,054 DEBUG   SenderThread:101530 [sender.py:send_request():249] send_request: poll_exit
+2022-04-27 23:03:05,054 INFO    SenderThread:101530 [file_pusher.py:join():150] waiting for file pusher
+2022-04-27 23:03:05,479 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-27 23:03:05,480 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-27 23:03:05,480 DEBUG   HandlerThread:101530 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-27 23:03:05,480 INFO    HandlerThread:101530 [handler.py:finish():790] shutting down handler
+2022-04-27 23:03:05,954 INFO    WriterThread:101530 [datastore.py:close():281] close: /home/martin_holen/Documents/Federated-Learning/PPO/wandb/run-20220427_230259-147m8fyx/run-147m8fyx.wandb
+2022-04-27 23:03:06,377 INFO    SenderThread:101530 [sender.py:finish():1107] shutting down sender
+2022-04-27 23:03:06,377 INFO    SenderThread:101530 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-27 23:03:06,378 INFO    SenderThread:101530 [file_pusher.py:join():150] waiting for file pusher
+2022-04-27 23:03:06,379 INFO    MainThread:101530 [internal.py:handle_exit():82] Internal process exited

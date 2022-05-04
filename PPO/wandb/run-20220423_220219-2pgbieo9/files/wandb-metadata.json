@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.13.0-39-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-04-23T20:02:19.759878",
+    "startedAt": "2022-04-23T20:02:19.102921",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/martin_holen/Documents/Federated-Learning/PPO/standardMethod.py",
+    "codePath": "standardMethod.py",
+    "host": "Bitcrusher",
+    "username": "martin_holen",
+    "executable": "/usr/bin/python3.8"
+}

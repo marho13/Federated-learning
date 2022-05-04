@@ -1,0 +1,86 @@
+[36m(pid=95669)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95669)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95674)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95674)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95654)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95654)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95649)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95649)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95678)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95678)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95676)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95676)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95665)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95665)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+[36m(pid=95652)[39m /home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+[36m(pid=95652)[39m   warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+weightedGradient.py:57: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  temp = np.add(g, get_weighted_grads)#avg_grad)
+[36m(pid=95669)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95669)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95674)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95674)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95654)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95654)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95649)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95649)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95678)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95678)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95676)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95676)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95665)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95665)[39m   p.grad = torch.from_numpy(g)
+[36m(pid=95652)[39m /home/martin_holen/Documents/Federated-Learning/PPO/model.py:89: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:178.)
+[36m(pid=95652)[39m   p.grad = torch.from_numpy(g)
+/home/martin_holen/.local/lib/python3.8/site-packages/torch/nn/functional.py:1933: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Run 0
+Epoch 9, gave reward -1115.0825821032847
+Traceback (most recent call last):
+  File "weightedGradient.py", line 244, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(ValueError): [36mray::DataWorker.compute_gradients()[39m (pid=95665, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 139, in compute_gradients
+    rew = self.performNActions(1000)
+  File "weightedGradient.py", line 150, in performNActions
+    action, dist = self.model.policy.act(state)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/model.py", line 38, in act
+    dist = MultivariateNormal(action_probs, self.cov_mat)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/distributions/multivariate_normal.py", line 146, in __init__
+    super(MultivariateNormal, self).__init__(batch_shape, event_shape, validate_args=validate_args)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/distributions/distribution.py", line 55, in __init__
+    raise ValueError(
+ValueError: Expected parameter loc (Tensor of shape (2,)) of distribution MultivariateNormal(loc: torch.Size([2]), covariance_matrix: torch.Size([2, 2])) to satisfy the constraint IndependentConstraint(Real(), 1), but found invalid values:
+tensor([nan, nan], grad_fn=<ExpandBackward0>)
+Traceback (most recent call last):
+  File "weightedGradient.py", line 244, in <module>
+    gradients = ray.get([worker.compute_gradients.remote(current_weights) for worker in workers])
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/client_mode_hook.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/worker.py", line 1495, in get
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(ValueError): [36mray::DataWorker.compute_gradients()[39m (pid=95665, ip=128.39.200.167)
+  File "python/ray/_raylet.pyx", line 501, in ray._raylet.execute_task
+  File "python/ray/_raylet.pyx", line 451, in ray._raylet.execute_task.function_executor
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/ray/_private/function_manager.py", line 563, in actor_method_executor
+    return method(__ray_actor, *args, **kwargs)
+  File "weightedGradient.py", line 139, in compute_gradients
+    rew = self.performNActions(1000)
+  File "weightedGradient.py", line 150, in performNActions
+    action, dist = self.model.policy.act(state)
+  File "/home/martin_holen/Documents/Federated-Learning/PPO/model.py", line 38, in act
+    dist = MultivariateNormal(action_probs, self.cov_mat)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/distributions/multivariate_normal.py", line 146, in __init__
+    super(MultivariateNormal, self).__init__(batch_shape, event_shape, validate_args=validate_args)
+  File "/home/martin_holen/.local/lib/python3.8/site-packages/torch/distributions/distribution.py", line 55, in __init__
+    raise ValueError(
+ValueError: Expected parameter loc (Tensor of shape (2,)) of distribution MultivariateNormal(loc: torch.Size([2]), covariance_matrix: torch.Size([2, 2])) to satisfy the constraint IndependentConstraint(Real(), 1), but found invalid values:
+tensor([nan, nan], grad_fn=<ExpandBackward0>)

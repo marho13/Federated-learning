@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.13.0-40-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-04-27T21:01:38.618046",
+    "startedAt": "2022-04-27T21:01:37.787248",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/martin_holen/Documents/Federated-Learning/PPO/weightedGradient.py",
+    "codePath": "weightedGradient.py",
+    "host": "Bitcrusher",
+    "username": "martin_holen",
+    "executable": "/usr/bin/python3.8"
+}
