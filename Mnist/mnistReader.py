@@ -7,6 +7,7 @@ from torchvision.transforms import Resize, InterpolationMode
 from os.path import join
 import random
 import matplotlib.pyplot as plt
+import torch
 
 def getFolders():
     output = []
@@ -83,7 +84,7 @@ class MnistDataloader(object):
 def show_images(images, title_texts):
     # cols = 5
     # rows = int(len(images)/cols) + 1
-    plt.figure(figsize=(30,20))
+    plt.figure(figsize=(224,224))
     index = 1
     for x in zip(images, title_texts):
         image = x[0]
@@ -111,4 +112,6 @@ def getMnist():
 
 if __name__ == "__main__":
     xTrain, yTrain, xTest, yTest = getMnist()
+    reshaper = Resize((224, 224), InterpolationMode.BILINEAR)
+    xTrain = reshaper(xTrain)
     show_images(xTrain, yTrain)

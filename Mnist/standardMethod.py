@@ -12,9 +12,9 @@ from torchvision.transforms import Resize, InterpolationMode
 from collections import namedtuple
 from collections import Counter
 from collections import deque
-from Mnist.model import Resnet20, tinyNet
+from model import Resnet20, tinyNet
 import ray
-from Mnist import mnistReader as mnist
+import mnistReader as mnist
 
 
 @ray.remote
@@ -79,7 +79,7 @@ batchsize = 32
 numActions = 10
 stateDim = 1
 n_latent_var = 64
-lr = 0.002
+lr = 0.01
 betas = (0.9, 0.999)
 gamma = 0.9
 iterations = 200
